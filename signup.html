@@ -23,45 +23,43 @@
         <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="loginbg">
-    
-    <main>
-       
-        <!--================login_part Area =================-->
-        <section class="login_part login ">
-            <div class="container">
+   
+    <main class="">
+     
+        <section class="login_part login  ">
+            <div class="container ">
                 <div class="row justify-content-center">
-                     
-                    <div class="col-xl-6   col-lg-6 col-md-6  col-sm-8 card shadow">
+                    
+                    <div class="col-xl-6   col-lg-6 col-md-6  col-sm-8  card shadow-sm">
                         <div class="login_part_form">
                             <div class="login_part_form_iner">
-                                <h3>Welcome Deutsche Vision ! <br>
-                                    Please Sign in now</h3>
-                                <form class="row contact_form" action="index.html" method="post" novalidate="novalidate">
+                                <h3>Welcome Deutsche Vision <br>
+                                    Please Sign up now</h3>
+                                <form class="row contact_form" action="./index.html" method="post" novalidate="novalidate">
                                     <div class="col-md-12 form-group p_star">
                                         <input type="text" class="form-control" id="name" name="name" value=""
-                                            placeholder="Username">
+                                            placeholder="Name">
                                     </div>
+                                    <div class="col-md-12 form-group p_star">
+                                        <input type="text" class="form-control" id="phone" name="phone" value=""
+                                            placeholder="Phone">
+                                    </div>
+                                    <div class="col-md-12 form-group p_star">
+                                        <input type="email" class="form-control" id="email" name="email" value=""
+                                            placeholder="Email">
+                                    </div>
+
                                     <div class="col-md-12 form-group p_star">
                                         <input type="password" class="form-control" id="password" name="password" value=""
                                             placeholder="Password">
                                     </div>
-
-                                    <div class="col-md-12 form-group p_star d-flex justify-content-between">
-                                        <div class="creat_account  ">
-                                            <input type="checkbox" id="f-option" name="selector">
-                                            <label for="f-option">Remember me</label>
-                                           
-                                        </div>
-                                        <div style="padding-top: 10px;">
-                                            <a class="text-danger" href="#">Forget password?</a>
-                                        </div>
-                                        
-                                    </div> 
+                                    
                                     <div class="col-md-12 form-group">
+                                        
                                         <button type="submit" value="submit" class="btn_3">
                                             log in
                                         </button>
-                                       <span>Don't Have Any Account? <a  style="color: blue; font-weight: 900;"  href="signup.html">Create</a> </span> 
+                                        <span>Don't Have Any Account? <a  style="color: blue; font-weight: 900;"   href="login.html">Login</a> </span> 
                                     </div>
                                 </form>
                             </div>
