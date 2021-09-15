@@ -2398,9 +2398,8 @@ input:hover,input:focus{
 @media (max-width: 575px){
     .header-area .main-header .menu-wrapper .header-right{
         position:relative;
-        bottom:-73px;
         z-index:3;
-        right:5px
+        right:50px
     }
 }
 .header-area .main-header .menu-wrapper .header-right ul{
@@ -2436,7 +2435,7 @@ input:hover,input:focus{
 }
 @media (max-width: 575px){
     .header-sticky.sticky-bar.sticky .header-right{
-        display:none
+       
     }
 }
 .mobile_menu{
@@ -2854,7 +2853,7 @@ input:hover,input:focus{
 .popular-items .single-popular-items .popular-img .img-cap span{
     color:#fff;
     background:#e49c30;
-    padding:20px 0;
+    padding:15px 0;
     display:block;
     cursor:pointer
 }
